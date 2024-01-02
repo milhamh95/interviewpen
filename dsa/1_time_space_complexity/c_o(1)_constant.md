@@ -32,3 +32,19 @@ no matter how large the index, the operation to get an element by index is alway
 - don't care about the return variable space
 
 ## Amortized O(1)
+- average time for each operation is constant O(1), even though some operation has the worst case time cost, like O(n) or O(log n)
+- but the average all operations is O(1)
+- doesn't mean all operations is O(1). There are some cases where the complexity is O(n) / O(n log n)
+- Example
+
+```
+- a list (dynamic array)
+- usually when insert an item, the complexity is O(1)
+- but if the list capacity is not enough when insert an item, the list will do these operations
+    - create a new array with double capacity from the previous array
+    - copy item from previous array to new array
+    - insert new item to array
+- the time complexity is O(n)
+- but it only happen a few times
+- so the amortized (average) complexity is O(1)
+```
