@@ -13,7 +13,9 @@ We care about tasks that take significantly more time as the number of guests in
 ```
 
 # Why we focus on how things scale up?
+
 ## 1. Predicting Performance for Large Inputs
+
 - Asymptotic analysis gives us an understanding of how an algorithm will perform with large inputs
 - In real world, we handle a lot of data
 - By knowing how algorithm perform with large input, we can
@@ -23,9 +25,11 @@ We care about tasks that take significantly more time as the number of guests in
   - Prepare for worst case scenario
 
 ## 2. Simplification of Analysis
+
 - Focusing on algorithm scale with large input, we can ignore constant factors
 - Those factors don't significantly affect performance for large n
 - Example
+
 ```
 3n ^ 2 + 10n + 5
 
