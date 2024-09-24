@@ -9,4 +9,4 @@
   - 4 / 2 = 2
   - 2 / 2 = 1
 
-[![logarithmic](https://i.ibb.co/CnqKdMP/logarithmic.png)](https://ibb.co/wKThHwc)
+![Logarithmic Time Complexity](https://i.ibb.co/CnqKdMP/logarithmic.png)
